@@ -1,7 +1,7 @@
-easy-parallel (Python 3 Version)
-================================
+easy-parallel-py3
+=================
 
-Parallel wrapper for easy multi-threading.
+Parallel wrapper for easy multi-threading (Python 3 version).
 
 Installation
 ------------
