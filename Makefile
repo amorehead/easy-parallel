@@ -5,8 +5,8 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-PROJECT_NAME = parallel
-PYTHON_INTERPRETER = python
+PROJECT_NAME = parallel-py3
+PYTHON_INTERPRETER = python3
 
 #################################################################################
 # COMMANDS                                                                      #

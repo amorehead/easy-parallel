@@ -5,8 +5,9 @@ Utility that will will take care of mapping job into pool of workers and allow
 for user interrupts as well as nice error logging.
 """
 import logging
-import pathos.multiprocessing as mp
 import traceback
+
+import pathos.multiprocessing as mp
 
 try:
     from StringIO import StringIO
@@ -77,7 +78,7 @@ def submit_helper(args):
     try:
         return function(*inputs)
     except Exception as e:
-        exc_buffer = StringIO.StringIO()
+        exc_buffer = StringIO()
         traceback.print_exc(file=exc_buffer)
         logging.error('Uncaught exception in worker process:\n\n%s',
                       exc_buffer.getvalue())

@@ -1,5 +1,5 @@
-easy-parallel
-=============
+easy-parallel (Python 3 Version)
+================================
 
 Parallel wrapper for easy multi-threading.
 
@@ -33,4 +33,4 @@ In python session:
 
     import parallel as par
     results = par.submit_jobs(foo, inputs, num_threads)
-    print results
+    print(results)
