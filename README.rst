@@ -10,7 +10,7 @@ Through pip:
 
 .. code-block:: console
 
-    $ pip install easy-parallel
+    $ pip3 install easy-parallel-py3
 
 Manually, from package root, run:
 
