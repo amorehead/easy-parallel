@@ -5,7 +5,7 @@ setup(
     py_modules=['parallel-py3'],
     url='https://github.com/amorehead/easy-parallel',
     version='0.1.6.2',
-    description='Parallel wrapper for easy multi-threading.',
+    description='Parallel wrapper for easy multi-threading (Python 3 version).',
     long_description=open("README.rst").read(),
     author='Raphael Townshend',
     license='MIT',
